@@ -53,7 +53,7 @@ class Main extends Component {
                   <td>{window.web3.utils.fromWei(product.price.toString(), 'Ether')} Eth</td>
                   <td>{product.owner}</td>
                   <td>
-                    { !product.purchased
+                    { !product.purchased  //if not purchased show the product otherwise hide it
                       ? <button
                           name={product.id}
                           value={product.price}

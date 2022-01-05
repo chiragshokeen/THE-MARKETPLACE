@@ -35,7 +35,7 @@ contract Marketplace{
      ) ;
 
     constructor() public{
-        name = "Chirag University Marketplace" ;
+        name = "Chirag University Marketplace " ;
     }
     //_variablename = local varibale
     function createProduct(string memory _name , uint _price) public {

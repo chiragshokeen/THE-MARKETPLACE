@@ -54,9 +54,9 @@ class App extends Component {
       this.setState({ productCount }) //storting product count
       // Load products
       for (var i = 1; i <= productCount; i++) {
-        const product = await marketplace.methods.products(i).call()
+        const product = await marketplace.methods.products(i).call() //fetch the product
         this.setState({
-          products: [...this.state.products, product]
+          products: [...this.state.products, product] // add it to the prodct array // ...spread syntax
         })
       }
       this.setState({ loading: false})
@@ -109,7 +109,7 @@ class App extends Component {
                 ? <div id="loader" className="text-center"><p className="text-center">Loading...</p></div>
                 : <Main
                 
-                  products={this.state.products}
+                  products={this.state.products} //listing out on page
                   createProduct={this.createProduct}
                   purchaseProduct={this.purchaseProduct}
                    />
