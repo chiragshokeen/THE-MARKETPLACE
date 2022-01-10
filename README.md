@@ -5,7 +5,7 @@ A basic blockchain app which allows people to list items for sale and other user
 TOOLS USED : 
 1.Ganache - A local blockchain used to develop, deploy, and test the dApp in a safe and deterministic environment.
 
-2.Metamask - A cryptocurrenct wallet used to interact with the blockchain .
+2.Metamask -  Helps the users to connect  with the blockchain through the web browser.
 
 3.web3 - Used for connecting the Dapp with the mobile wallet i.e metamask 
 

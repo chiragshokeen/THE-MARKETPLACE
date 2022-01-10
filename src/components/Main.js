@@ -4,6 +4,7 @@ class Main extends Component {
 
   render() {
     return (
+
       <div id="content">
         <h1>Add Product</h1>
         <form onSubmit={(event) => {
