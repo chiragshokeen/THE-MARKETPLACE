@@ -5,6 +5,7 @@ import './App.css';
 import Marketplace from '../abis/Marketplace.json'
 import Navbar from './Navbar'
 import Main from './Main'
+import "./App.css" ; 
 
 class App extends Component {
 

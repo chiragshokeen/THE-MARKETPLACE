@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import "./Main.css" ; 
 
 class Main extends Component {
 
   render() {
     return (
 
-      <div id="content">
+      <div className= "outside" id="content">
         <h1>Add Product</h1>
         <form onSubmit={(event) => {
           event.preventDefault()
